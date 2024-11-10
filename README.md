@@ -1,1 +1,2 @@
 # Attendance_automation_using_Face_Detection_Python
+The Student Attendance System leverages facial recognition technology for precise attendance tracking. It collects student data and images, provides an intuitive interface for easy attendance marking, and records it automatically. This streamlines the process, minimizes errors, and boosts administrative efficiency. The system is developed using OpenCV, NumPy, JSON, CSV, Tkinter, and Python.
