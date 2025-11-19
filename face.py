@@ -24,7 +24,7 @@ def create_gui():
     
     target_width = 500
     target_height = 300
-    image_path = r"C:\Users\karti\OneDrive\Desktop\MiniProject\img.gif" #replace with path in your system
+    image_path = r"C:\Users\aloky\OneDrive\Desktop\MiniProject\img.gif" #replace with path in your system
     resized_image = resize_image(image_path, target_width, target_height)
     # Function to handle button click for capturing student images
     def capture_images():
@@ -163,7 +163,7 @@ def capture(name , roll):
 
 def markAttendance():
     recognizer = cv2.face.LBPHFaceRecognizer_create()
-    folder_path = "C:\\Users\\karti\\OneDrive\\Desktop\\MiniProject\\student_data" #replace with path in your system
+    folder_path = "C:\\Users\\aloky\\OneDrive\\Desktop\\MiniProject\\student_data" #replace with path in your system
     stored_faces, labels = load_image_from_folder(folder_path)
     # Training the model
     recognizer.train(stored_faces, np.array(labels))
